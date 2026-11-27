@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="t d">
+<title id="t">بنر جوزا اسپایس</title><desc id="d">تصویرسازی وکتور ادویه‌های زعفران، فلفل، دارچین و گیاهان معطر</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5ead5"/><stop offset="1" stop-color="#e5d1ad"/></linearGradient>
+ <linearGradient id="bowl" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d79a55"/><stop offset="1" stop-color="#98512c"/></linearGradient>
+ <linearGradient id="red" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d84a2f"/><stop offset="1" stop-color="#8c251d"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#3b2a1b" flood-opacity=".2"/></filter>
+</defs>
+<rect width="1200" height="820" rx="54" fill="url(#bg)"/>
+<circle cx="940" cy="160" r="210" fill="#fff9ed" opacity=".45"/><circle cx="190" cy="650" r="180" fill="#d7c19c" opacity=".25"/>
+<g opacity=".8" fill="none" stroke="#526d45" stroke-width="12" stroke-linecap="round">
+ <path d="M930 700 Q1000 510 1100 420 M1010 610 Q940 565 920 500 M1038 550 Q1110 535 1140 470 M1050 525 Q1015 455 1035 405"/>
+ <path d="M170 210 Q280 300 300 430 M230 290 Q160 280 125 230 M265 355 Q335 320 360 255"/>
+</g>
+<g fill="#758b58"><ellipse cx="915" cy="495" rx="30" ry="65" transform="rotate(-42 915 495)"/><ellipse cx="1135" cy="460" rx="28" ry="65" transform="rotate(35 1135 460)"/><ellipse cx="1035" cy="410" rx="27" ry="62" transform="rotate(5 1035 410)"/><ellipse cx="125" cy="230" rx="25" ry="58" transform="rotate(-50 125 230)"/><ellipse cx="360" cy="255" rx="25" ry="58" transform="rotate(35 360 255)"/></g>
+<g filter="url(#shadow)">
+ <ellipse cx="390" cy="560" rx="235" ry="115" fill="#fff1d6"/><ellipse cx="390" cy="545" rx="215" ry="96" fill="url(#bowl)"/><ellipse cx="390" cy="525" rx="185" ry="75" fill="#b86b35"/>
+ <ellipse cx="780" cy="575" rx="190" ry="96" fill="#fff0d0"/><ellipse cx="780" cy="555" rx="170" ry="78" fill="#c58a48"/>
+ <ellipse cx="680" cy="300" rx="150" ry="80" fill="#fff0d0"/><ellipse cx="680" cy="282" rx="130" ry="62" fill="#a65d34"/>
+</g>
+<g fill="#e4aa28"><path d="M290 530q30-90 55-10t55-10t55 20t-10 48t-155-48" opacity=".9"/><circle cx="370" cy="520" r="9"/><circle cx="425" cy="548" r="8"/><circle cx="330" cy="555" r="7"/></g>
+<g fill="#8e3427"><circle cx="720" cy="545" r="13"/><circle cx="760" cy="520" r="11"/><circle cx="805" cy="558" r="14"/><circle cx="840" cy="530" r="10"/><circle cx="780" cy="580" r="9"/><circle cx="735" cy="575" r="8"/></g>
+<g fill="#b97a3e"><rect x="620" y="255" width="120" height="18" rx="9" transform="rotate(-25 620 255)"/><rect x="655" y="285" width="130" height="17" rx="8" transform="rotate(18 655 285)"/><rect x="670" y="240" width="100" height="15" rx="7" transform="rotate(45 670 240)"/></g>
+<g fill="url(#red)" filter="url(#shadow)"><path d="M460 340q70-90 145-20q-30 115-112 125q-55-20-33-105z"/><path d="M545 410q65-65 130-10q-25 95-100 105q-55-20-30-95z"/></g>
+<g fill="#5d7448"><path d="M470 345q-10-35 15-48q15 28 3 48z"/><path d="M550 410q-8-35 18-45q14 25 0 45z"/></g>
+<g font-family="Vazirmatn,Tahoma,sans-serif" text-anchor="middle"><text x="600" y="105" fill="#294431" font-size="54" font-weight="800">جوزا اسپایس</text><text x="600" y="155" fill="#a65d34" font-size="25" font-weight="600">عطر ادویه، طعم خاطره‌انگیز</text></g>
+<g fill="#fff9ed" opacity=".75"><circle cx="150" cy="490" r="7"/><circle cx="1020" cy="270" r="9"/><circle cx="870" cy="730" r="6"/><circle cx="300" cy="180" r="5"/></g>
+</svg>
