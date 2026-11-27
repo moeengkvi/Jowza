@@ -33,7 +33,7 @@ function App(){
     <div className="announcement">از عطر ادویه تا خاطره‌ی یک غذای به‌یادماندنی <span>✦</span> همراه سفره‌های ایرانی</div>
     <header className="header">
       <a className="brand" href="#home" aria-label="جوزا اسپایس"><span className="brand-mark">ج</span><span>جوزا<span className="brand-light"> اسپایس</span><small>JOWZA SPICE</small></span></a>
-      <button className="menu-toggle" onClick={()=>setMenuOpen(!menuOpen)} aria-label="باز کردن منو">☰</button>
+      <button type="button" className="menu-toggle" onClick={()=>setMenuOpen(!menuOpen)} aria-label="باز کردن منو" aria-expanded=${menuOpen}>☰</button>
       <nav className={menuOpen?"nav-links open":"nav-links"}>{nav.map(([label,id])=>html`<a href=${"#"+id} onClick={()=>setMenuOpen(false)}>${label}</a>`)}</nav>
       <a className="header-cta" href="#products">دیدن محصولات <span>←</span></a>
     </header>
@@ -65,7 +65,7 @@ function App(){
             <div className="product-image"><img src=${p.image} alt=${p.name} loading="lazy"/><span className="product-tag">${p.tag}</span><button className="quick-add" onClick={()=>setCart(old=>[...old,p])} aria-label=${"افزودن "+p.name}>+</button></div>
             <div className="product-info"><div className="product-category">${p.category}</div><h3>${p.name}</h3><p>${p.desc}</p><div className="product-bottom"><b>استعلام قیمت</b><button onClick={()=>setCart(old=>[...old,p])}>افزودن به لیست سفارش <span>←</span></button></div></div>
           </article>`)}</div>
-        <div className="order-bar"><div><b>برای سفارش یا اطلاع از قیمت آماده‌ای؟</b><span>${cart.length?cart.length+" محصول به لیست سفارش اضافه شده":"محصولات موردنظرت را انتخاب کن و با ما در ارتباط باش."}</span></div><a className="button button-light" href=${cart.length?whatsapp:"https://wa.me/989037822307"} target="_blank" rel="noreferrer">ارتباط در واتساپ ↗</a></div>
+        <div className="order-bar"><div><b>برای سفارش یا اطلاع از قیمت آماده‌ای؟</b><span aria-live="polite">${cart.length?cart.length+" محصول به لیست سفارش اضافه شده":"محصولات موردنظرت را انتخاب کن و با ما در ارتباط باش."}</span></div><a className="button button-light" href=${cart.length?whatsapp:"https://wa.me/989037822307"} target="_blank" rel="noreferrer">ارتباط در واتساپ</a></div>
       </section>
 
       <section className="story-section" id="about"><div className="story-image"><img src={photos.kitchen} alt="فضای گرم و صمیمی آشپزی" loading="lazy"/><div className="story-seal">با عشق<br/>به طعم</div></div><div className="story-copy"><div className="eyebrow">درباره‌ی جوزا اسپایس</div><h2>طعم خوب،<br/><em>از جزئیات شروع می‌شود.</em></h2><p>برای ما ادویه فقط یک چاشنی نیست؛ بخشی از خاطره‌ی دورهمی‌ها، عطر غذای خانه و لذت کشف مزه‌های تازه است. جوزا اسپایس با همین نگاه شکل گرفته تا انتخاب ادویه و چاشنی، ساده‌تر و لذت‌بخش‌تر باشد.</p><a className="text-link" href="#contact">با جوزا آشنا شوید <span>←</span></a></div></section>
